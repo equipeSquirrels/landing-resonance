@@ -8,7 +8,7 @@
     <Pack />
     <About />
     <Contacts />
-    <Arrow />
+
 
 
   </section>
@@ -21,7 +21,7 @@ import Resonance from './components/Resonance'
 import Pack from './components/Pack'
 import About from './components/About'
 import Contacts from './components/Contacts'
-import Arrow from './components/Arrow'
+
 import Newsletter from "./view/Newsletter";
 
 
@@ -43,7 +43,7 @@ export default {
     Contacts,
     // eslint-disable-next-line vue/no-unused-components
 
-    Arrow,
+
 
   }
 }
