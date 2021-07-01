@@ -1,0 +1,203 @@
+<template>
+
+  <div class="contact container-fluid" id="contacts">
+    <div class="container">
+      <div class="row">
+        <div class="sm-9">
+          <h2>Encore un peu de patience..</h2>
+          <p>Résonance sera initialisé dans les prochains jours.
+          Pour ne pas manquer notre lancement, soyez sur de nous suivre
+          sur les réseaux sociaux ou de vous inscrire à la Newsletter.</p>
+        </div>
+        <div id="mc_embed_signup">
+          <form action="https://gmail.us6.list-manage.com/subscribe/post?u=a83e1161e53837d436ac2f0f0&amp;id=4f6c2f1b46" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+
+              <input type="email"  value="" name="EMAIL" id="mce-EMAIL" placeholder="Email">
+
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a83e1161e53837d436ac2f0f0_4f6c2f1b46" tabindex="-1" value=""></div>
+              <div class="clear"><input type="submit" value="Envoyer" name="Envoyer" id="mc-embedded-subscribe" class="btn btn-dark"></div>
+            </div>
+          </form>
+        </div>
+
+
+         <!-- <iframe width="540" height="305" src="https://c54cdbe9.sibforms.com/serve/MUIEAMbIceJgO-YVwLeFg8bCOBBGESSi7jD_qiY6if5jQ7i9oWunDUSn5utk_-QmUeArCA6cEn3-cVgs0_je-9cDxjfML4ASNtWJn6dlV3lKg7YDXzjVcgklp8PLG7o-HKNy9p4IvtmqU8xb9Y1btuQeixl1wPboIvAxg2X5-Wdbsto0EJxRUCZbG43FyZJuHwx4UcJLTXViRURp" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>-->
+      </div>
+    <div class="text-center">
+      <a href="https://www.instagram.com/tech.resonance/"><img class="instagram" src="@/assets/content/instagram.png"></a>
+      <a href="https://www.linkedin.com/company/tech-r%C3%A9sonance/"><img class="linkedin" src="@/assets/content/linkedin.png"></a>
+      <a href="https://www.youtube.com/channel/UCwLZBX3OMEk48ObauN4EMog"><img class="youtube" src="@/assets/content/youtube.png"></a>
+    </div>
+  </div>
+  </div>
+</template>
+
+<script>
+
+export default {
+ name: 'Login',
+ data() {
+   return {
+     input: {
+       emailAddress: "",
+       password: ""
+     },
+   }
+
+ },
+  methods: {
+
+  }
+}
+</script>
+
+
+<style scoped>
+
+#mce-EMAIL{
+  width: 50%;
+  padding: 12px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+#mc_embed_signup{ clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+
+ .instagram{
+  width: 40px;
+  height: 40px;
+   margin-right: 2%;
+}
+ .linkedin{
+   width: 34px;
+   height: 34px;
+   margin-right: 2%;
+ }
+ .youtube{
+   width: 34px;
+   height: 23px;
+   margin-top: 15px;
+ }
+
+.champ{
+  padding-top: 20px;
+}
+h2 {
+  font-size: 34px;
+  font-weight: bold;
+  font-family: "Poppin SemiBold", sans-serif;
+  color: #ffffff;
+}
+p{
+  font-family: 'Roboto Thin', sans-serif;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+label{
+  color: #ffffff;
+}
+.contact{
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: #222222;
+}
+
+img {
+  width: 100%;
+}
+
+label {
+  font-size: 15px;
+  text-align: left!important;
+
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-weight: bold;
+  color: #FECF98;
+  text-transform: uppercase;
+}
+
+.logo_newsletter{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+}
+
+#login {
+ width: 400px;
+ border: 2px solid #CCCCCC;
+ background-color: white;
+ margin: auto;
+ margin-top: 20px;
+ padding: 20px;
+
+}
+#map{
+ margin-left: 470px;
+ margin-top: 20px;
+}
+
+ * {box-sizing: border-box;}
+
+
+.container {
+  display: block;
+
+  text-align: center;
+  border-radius: 5px;
+  background: #222222;
+  padding: 20px;
+  width: 50%;
+}
+
+label {
+  float: left;
+}
+
+input[type=text], [type=email], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ @media screen and (min-width: 320px) and (max-width: 770px){
+   .container{
+     width: auto;
+   }
+ }
+.contact-form{
+  padding: 5% 10% ;
+}
+</style>
