@@ -62,7 +62,7 @@ export default {
 }
 .blob1{
 
-  margin-left: 43%;
+  margin-left: 83%;
   margin-top: 20%;
   width: 80%;
 }
