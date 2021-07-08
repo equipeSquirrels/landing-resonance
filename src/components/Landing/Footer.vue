@@ -114,7 +114,7 @@ export default {
 .foot{
   margin-bottom:5%;
   padding-left: 5.3%;
-  margin-right: 40%;
+  margin-right: 54%;
 }
 .pink{
   color: #e1366a;
