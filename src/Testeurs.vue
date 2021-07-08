@@ -1,10 +1,11 @@
 <template id="testeurs">
-  <section>
+  <div class="container-fluid">
     <expert/>
     <Work/>
     <FAQ/>
     <Communaute/>
-  </section>
+
+  </div>
 </template>
 
 <script>
@@ -13,6 +14,7 @@ import Work from "@/components/Methodologie/Work";
 import FAQ from "@/components/Methodologie/FAQ";
 import Communaute from "@/components/Methodologie/Communaute";
 
+
 export default {
   name: "Testeurs",
   components: {
@@ -20,6 +22,7 @@ export default {
     Work,
     FAQ,
     Communaute,
+
 
   }
 }

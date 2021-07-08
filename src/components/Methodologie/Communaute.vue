@@ -52,7 +52,7 @@
 
 
       </div>
-      <div class="row actualite">
+      <div class=" actualite">
         <div class="sm-9">
           <h2 class="text-center">Recevez le meilleure de l'actualité tech</h2>
           <p class="text-center">Inscrivez votre adresse mail et recevez régulièrement les dernières
