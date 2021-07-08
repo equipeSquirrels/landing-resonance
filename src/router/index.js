@@ -34,6 +34,14 @@ const routes = [
         },
     },
 
+    {
+        path:'/Testeurs',
+        name: 'Testeurs',
+        components: {
+            default: () => import(/* webpackChunkName: "Testeurs" */ '@/Testeurs.vue'),
+        },
+    },
+
 ]
 
 const router = new VueRouter({

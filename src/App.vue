@@ -10,8 +10,8 @@
 </template>
 
 <script>
-import Header from './components/Header'
-import Footer from './components/Footer'
+import Header from './components/Landing/Header'
+import Footer from './components/Landing/Footer'
 
 
 

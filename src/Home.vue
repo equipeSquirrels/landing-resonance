@@ -1,8 +1,9 @@
 <template>
 
   <section id="content">
-    <router-view></router-view>
 
+    <router-view></router-view>
+    <Banner/>
     <Resonance />
     <Newsletter/>
     <Pack />
@@ -17,12 +18,13 @@
 
 <script>
 
-import Resonance from './components/Resonance'
-import Pack from './components/Pack'
-import About from './components/About'
-import Contacts from './components/Contacts'
-
+import Resonance from './components/Landing/Resonance'
+import Pack from './components/Landing/Pack'
+import About from './components/Landing/About'
+import Contacts from './components/Landing/Contacts'
+import Banner from './components/Landing/Banner'
 import Newsletter from "./view/Newsletter";
+
 
 
 
@@ -35,6 +37,7 @@ export default {
   name: 'App',
   components:{
     Newsletter,
+    Banner,
 
 
     Resonance,
@@ -60,7 +63,7 @@ export default {
 
 }
 h1, h2, h3{
-  font-family: "Poppins SemiBold";
+  font-family: "Poppins SemiBold",serif;
 }
 p{
   font-family: 'Ubuntu', sans-serif;
