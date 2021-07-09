@@ -183,5 +183,6 @@ h5 {
   padding-bottom: 30px;
   color: #000000;
   font-family: Ubuntu, sans-serif;
+  border-top: 3px solid #e1366a;
 }
 </style>

@@ -22,7 +22,7 @@
     <div class="banner_content">
       <div class="container">
         <div class="row">
-          <div class="col-md-6" id="frame">
+          <div id="frame">
             <img src="@/assets/content/frame.svg" alt="frame" width="auto" class="img">
 
           </div>

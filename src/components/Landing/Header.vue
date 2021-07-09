@@ -17,7 +17,7 @@
         <b-navbar-nav class="ml-md-auto" id="navmenu">
 
           <b-nav-item-dropdown class="dropDown" text="Solution">
-            <b-dropdown-item class="drop" href="#">Produit</b-dropdown-item>
+            <b-dropdown-item class="drop" to="/Produit">Produit</b-dropdown-item>
             <b-dropdown-item class="drop" href="#">Pannel d'utilisateurs</b-dropdown-item>
           </b-nav-item-dropdown>
 

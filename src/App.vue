@@ -38,6 +38,11 @@ export default {
 	list-style: none;
 	text-decoration: none;
 	scroll-behavior: smooth;
+
+}
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
 }
 
 </style>

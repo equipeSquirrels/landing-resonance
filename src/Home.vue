@@ -66,7 +66,7 @@ h1, h2, h3{
   font-family: "Poppins SemiBold",serif;
 }
 p{
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 </style>

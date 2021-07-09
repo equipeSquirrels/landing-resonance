@@ -41,6 +41,13 @@ const routes = [
             default: () => import(/* webpackChunkName: "Testeurs" */ '@/Testeurs.vue'),
         },
     },
+    {
+        path:'/Produit',
+        name: 'Produit',
+        components: {
+            default: () => import(/* webpackChunkName: "Produit" */ '@/Produit.vue'),
+        },
+    },
 
 ]
 

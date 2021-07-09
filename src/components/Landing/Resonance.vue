@@ -60,14 +60,19 @@ export default {
   padding-top: 15%;
 
 }
+.container{
+  margin: 0 auto;
+
+}
 .blob1{
 
-  margin-left: 83%;
+
   margin-top: 20%;
-  width: 80%;
+
 }
 .col-md-6{
   padding-left: 9%;
+  padding-right: 9%;
 }
 .solid{
   border-top: 1px solid #E1366A;
@@ -152,6 +157,6 @@ span {
     padding: 2%;
   }
 
-  
+
 }
 </style>

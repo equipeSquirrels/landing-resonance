@@ -30,6 +30,7 @@ export default {
 
 <style scoped>
 
+
 p{
   font-family: Quicksand, sans-serif;
 }
