@@ -17,13 +17,13 @@
         <b-navbar-nav class="ml-md-auto" id="navmenu">
 
           <b-nav-item-dropdown class="dropDown" text="Solution">
-            <b-dropdown-item class="drop" to="/Produit">Produit</b-dropdown-item>
-            <b-dropdown-item class="drop" href="#">Pannel d'utilisateurs</b-dropdown-item>
+            <b-dropdown-item class="drop" to="/Product">Produit</b-dropdown-item>
+            <b-dropdown-item class="drop" href="/Panel">Pannel d'utilisateurs</b-dropdown-item>
           </b-nav-item-dropdown>
 
           <b-nav-item-dropdown class="dropDown" text="Méthodologie" right>
             <b-dropdown-item class="drop" to="/Testeurs">Tests Utilisateur à Distance</b-dropdown-item>
-            <b-dropdown-item class="drop" href="#">Déroulé d'un Test Utilisateur</b-dropdown-item>
+            <b-dropdown-item class="drop" to="/methodologie">Déroulé d'un Test Utilisateur</b-dropdown-item>
           </b-nav-item-dropdown>
 
           <b-nav-item href="https://resonance-blog.systeme.io/" exact-active-class=" active">Blog</b-nav-item>

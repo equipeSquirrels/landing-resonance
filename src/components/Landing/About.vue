@@ -12,7 +12,7 @@
             <p>Le pannel de testeur de Résonance est constitué de réels technophiles
             qui veulent êtres des acteurs clés de cette industrie. Si vous pensez être
             à la hauteur de cette tâche, soumettez votre candidature !</p>
-            <p class="join">Rejoindre le pannel <a href="#contact"><img id="contact" alt="click" src="@/assets/content/arrow-right-1.png" ></a> </p>
+            <p class="join">Rejoindre le pannel <a href="#contact"><img id="contact" alt="click" src="../../assets/header/arrow-down-1.png" ></a> </p>
 
             <b-button @click="modalShow = !modalShow" class="btnQuiz">Passer le test !</b-button>
 

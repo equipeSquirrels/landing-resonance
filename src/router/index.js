@@ -19,7 +19,7 @@ const routes = [
         path: '/Newsletter',
         name: 'Newsletter',
         components: {
-            default:()=> import('../view/Newsletter'),
+            default:()=> import('@/view/Newsletter'),
         },
     },
 
@@ -42,12 +42,27 @@ const routes = [
         },
     },
     {
-        path:'/Produit',
-        name: 'Produit',
+        path:'/Product',
+        name: 'Product',
         components: {
-            default: () => import(/* webpackChunkName: "Produit" */ '@/Produit.vue'),
+            default: () => import(/* webpackChunkName: "Produit" */ '@/Product.vue'),
         },
     },
+    {
+        path:'/Panel',
+        name: 'Panel',
+        components: {
+            default: () => import(/* webpackChunkName: "Panel" */ '@/Panel.vue'),
+        },
+    },
+    {
+        path:'/methodologie',
+        name: 'Methodologie',
+        components: {
+            default: () => import(/* webpackChunkName: "Panel" */ '@/Methodologie.vue'),
+        },
+    },
+
 
 ]
 

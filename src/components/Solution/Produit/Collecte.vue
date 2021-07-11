@@ -1,15 +1,17 @@
 <template>
-  <div id="banner">
+  <div id="collecte">
 
     <div class="banner_content">
       <div class="col">
         <div class="col-md-6">
-          <h1>Impulser la technologie de demain.</h1>
-          <p>La plateforme qui révolutionne la relation entre bêta-testeurs et créateurs de la tech.
-            Testez votre éligibilité à devenir testeur grâce au quiz fait spécialement pour vous !</p>
+          <h1>Collecter les attentes et les réflexions des utilisateurs.</h1>
+          <p>Résonance propose l'une des meilleures solutions SaaS pour améliorer
+          vos produits en fonction des retours testeurs.</p>
 
-          <p class="tech">Découvrir le futur de la tech <a href="#down"><img id="down" alt="click" src="@/assets/header/arrow-down-1.svg" ></a> </p>
-         </div>
+
+            <b-button variant="outline-light" class="btnDevis">Demander une démo</b-button>
+
+        </div>
 
       </div>
     </div>
@@ -18,25 +20,30 @@
 
 <script>
 export default {
-    name:'Banner'
+  name:'Collecte'
 
 }
 </script>
 
 <style scoped>
+
+.btnDevis{
+  background-color: #e1366a;
+  color: white;
+  margin: auto;
+}
 .img_header{
   width: 70%;
   height: 300px;
   padding-bottom: 2%;
 }
-
 img{
   width: auto;
 }
-#banner {
+#collecte {
 
 
-  background-image: url("../../assets/header/home.svg");
+  background-image: url("../../../assets/produit/collecte.svg");
   background-repeat: no-repeat;
   background-size: contain;
   padding-bottom: 23%;
@@ -45,8 +52,8 @@ img{
 
 }
 #down{
-  width: 14px;
-  height: 14px;
+  width: 24px;
+  height: 24px;
 }
 h1, p{
   color: black;
@@ -63,7 +70,7 @@ p{
   font-family: 'Quicksand', sans-serif;
 }
 .col-md-6{
-padding-left: 10%;
+  padding-left: 10%;
 
 }
 .scroll{
@@ -88,7 +95,7 @@ p{
 }
 
 
- .tech{
+.tech{
   color: #e1366a;
 }
 

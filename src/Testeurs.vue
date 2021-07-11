@@ -9,10 +9,10 @@
 </template>
 
 <script>
-import expert from "@/components/Methodologie/expert";
-import Work from "@/components/Methodologie/Work";
-import FAQ from "@/components/Methodologie/FAQ";
-import Communaute from "@/components/Methodologie/Communaute";
+import expert from "@/components/Methodologie/Distance/expert";
+import Work from "@/components/Methodologie/Distance/Work";
+import FAQ from "@/components/Methodologie/Distance/FAQ";
+import Communaute from "@/components/Methodologie/Distance/Communaute";
 
 
 export default {
