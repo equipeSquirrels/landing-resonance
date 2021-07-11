@@ -23,6 +23,9 @@
             <li>
               <router-link to="/#Politique" class="nav-link ps-0">Politique de confidentialité</router-link>
             </li>
+            <li>
+              <a href="https://www.docdroid.net/9HnFJGm/fly-on-the-wall-livre-blanc-resonance-pdf" class="nav-link ps-0">Presse</a>
+            </li>
           </ul>
        </div>
        <div class="col">

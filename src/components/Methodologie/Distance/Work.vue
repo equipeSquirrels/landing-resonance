@@ -10,7 +10,7 @@
             <li>Vous réalisez des tests qui vous correspondent et analysez des produits en exclusivité.</li>
           </ul>
 
-          <b-button variant="outline-light" class="btnTesteur">Je souhaite devenir testeur</b-button>
+          <b-button variant="outline-light" class="btnTesteur" to="/methodologie">Je souhaite devenir testeur</b-button>
           <b-button variant="outline-light"  class="btnTest">Voir des exemples de tests</b-button>
         </div>
         <div class="col-md-6" id="blob1">

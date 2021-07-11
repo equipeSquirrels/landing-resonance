@@ -62,6 +62,13 @@ const routes = [
             default: () => import(/* webpackChunkName: "Panel" */ '@/Methodologie.vue'),
         },
     },
+    {
+        path:'/Deroule',
+        name: 'Deroule',
+        components: {
+            default: () => import(/* webpackChunkName: "Deroule" */ '@/Deroule.vue'),
+        },
+    },
 
 
 ]

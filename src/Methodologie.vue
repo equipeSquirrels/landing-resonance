@@ -8,9 +8,9 @@
 </template>
 
 <script>
-import Methodo from "@/components/Methodologie/Test/Methodo";
-import TestUser from "@/components/Methodologie/Test/TestUser";
-import PlaceTest from "@/components/Methodologie/Test/PlaceTest";
+import Methodo from "@/components/Methodologie/Distance/Methodo";
+import TestUser from "@/components/Methodologie/Distance/TestUser";
+import PlaceTest from "@/components/Methodologie/Distance/PlaceTest";
 
 
 export default {
@@ -25,5 +25,10 @@ name: "Methodologie",
 </script>
 
 <style scoped>
-
+h1, h2, h3, h4, h5, h6{
+  font-family: Quicksand, sans-serif;
+}
+p{
+  font-family: "Poppins SemiBold", sans-serif;
+}
 </style>

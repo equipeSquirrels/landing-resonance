@@ -23,7 +23,7 @@
 
           <b-nav-item-dropdown class="dropDown" text="Méthodologie" right>
             <b-dropdown-item class="drop" to="/Testeurs">Tests Utilisateur à Distance</b-dropdown-item>
-            <b-dropdown-item class="drop" to="/methodologie">Déroulé d'un Test Utilisateur</b-dropdown-item>
+            <b-dropdown-item class="drop" to="/Deroule">Déroulé d'un Test Utilisateur</b-dropdown-item>
           </b-nav-item-dropdown>
 
           <b-nav-item href="https://resonance-blog.systeme.io/" exact-active-class=" active">Blog</b-nav-item>
@@ -39,21 +39,13 @@
           <b-nav-item to="#" exact-active-class="active">
             <b-button variant="outline-light" @click="modalShow = !modalShow" class="btnDemo">Demander une démo</b-button>
           </b-nav-item>
-
         </b-navbar-nav>
-
-
-        <!-- GAUCHE -->
-
-
       </b-collapse>
-
-
-
     </b-navbar>
+
     <b-modal
         v-model="modalShow"
-        class="modal bg-dark"
+        class="modal bg-transparent"
         ok-variant="transparent"
         ok-title=""
         ok-disabled
