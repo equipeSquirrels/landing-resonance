@@ -49,12 +49,13 @@ const routes = [
         },
     },
     {
-        path:'/Panel',
-        name: 'Panel',
+        path:'/Pannel',
+        name: 'Pannel',
         components: {
-            default: () => import(/* webpackChunkName: "Panel" */ '@/Panel.vue'),
+            default: () => import(/* webpackChunkName: "Pannel" */ '@/Pannel.vue'),
         },
     },
+
     {
         path:'/methodologie',
         name: 'Methodologie',
