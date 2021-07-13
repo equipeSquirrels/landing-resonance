@@ -70,6 +70,14 @@ const routes = [
             default: () => import(/* webpackChunkName: "Deroule" */ '@/Deroule.vue'),
         },
     },
+    {
+        path:'/recrute',
+        name: 'Recrute',
+        components: {
+            default: () => import(/* webpackChunkName: "Recrute" */ '@/Recrutement.vue'),
+        },
+    },
+
 
 
 ]

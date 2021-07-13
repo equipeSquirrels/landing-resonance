@@ -32,7 +32,7 @@
 
         <b-navbar-nav class="ml-md-auto" id="navBtn">
 
-          <b-nav-item to="#" exact-active-class="active">
+          <b-nav-item to="/recrute" exact-active-class="active">
             <b-button variant="outline-light" class="btnContact">Devenir testeur</b-button>
           </b-nav-item>
 
