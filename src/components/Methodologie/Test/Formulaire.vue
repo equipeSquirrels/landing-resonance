@@ -201,6 +201,7 @@ name: "Formulaire",
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 5%;
+  padding-bottom: 5%;
   width: 100%;
 
 }
@@ -234,6 +235,13 @@ name: "Formulaire",
   align-content: center;
 
 }
+p{
+  font-family: Quicksand, sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: "Poppins SemiBold", sans-serif;
+}
+
 .critere{
   display: flex;
   flex-direction: row;

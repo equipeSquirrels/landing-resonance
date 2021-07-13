@@ -1,13 +1,20 @@
 <template>
-  <Formulaire/>
+  <div class="content">
+    <Formulaire/>
+    <PlaceTesteur/>
+  </div>
+
 </template>
 
 <script>
 import Formulaire from "@/components/Methodologie/Test/Formulaire";
+import PlaceTesteur from "@/components/Methodologie/Test/PlaceTesteur";
+
 export default {
 name: "Recrutement",
   components:{
-    Formulaire
+    Formulaire,
+    PlaceTesteur
   }
 }
 </script>

@@ -3,6 +3,7 @@
 
     <Conduire/>
     <CardTesteur/>
+    <PlaceTest/>
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 
 import Conduire from "@/components/Methodologie/Test/Conduire";
 import CardTesteur from "@/components/Methodologie/Test/cardTesteur";
+import PlaceTest from "@/components/Methodologie/Distance/PlaceTest";
 
 export default {
 name: "Deroule",
   components:{
     CardTesteur,
     Conduire,
+    PlaceTest
   }
 }
 </script>
