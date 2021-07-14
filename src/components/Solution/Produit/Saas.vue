@@ -106,6 +106,9 @@ export default {
   margin-left: 32%;
   margin-top: 15%;
 }
+span{
+  font-family: Quicksand, sans-serif;
+}
 .echo{
   margin-left: 24%;
   margin-top: 15%;
@@ -172,7 +175,6 @@ h2{
     margin-left: 30%;
 
   }
-
   #saas{
     margin-bottom: 10%;
   }

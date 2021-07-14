@@ -11,7 +11,7 @@
             <li>Partagez vos impressions</li>
           </ul>
 
-          <b-button variant="outline-light" href="/#" class="btnDemo">Passer le test d'éligibilité</b-button>
+          <b-button variant="outline-light" href="https://quizzresonance.netlify.app/" class="btnDemo">Passer le test d'éligibilité</b-button>
 
         </div>
 

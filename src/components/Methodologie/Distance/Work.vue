@@ -10,7 +10,7 @@
             <li>Vous réalisez des tests qui vous correspondent et analysez des produits en exclusivité.</li>
           </ul>
 
-          <b-button variant="outline-light" class="btnTesteur" to="/methodologie">Passer le test d'éligibilité</b-button>
+          <b-button variant="outline-light" class="btnTesteur" href="https://quizzresonance.netlify.app/">Passer le test d'éligibilité</b-button>
           <b-button variant="outline-light"  class="btnTest">Voir des exemples de tests</b-button>
         </div>
         <div class="col-md-6" id="blob1">
@@ -45,7 +45,7 @@
     </div>
 
     <div class="devis">
-      <b-button variant="outline-light" class="btnDevis">Passer le test d'éligibilité</b-button>
+      <b-button variant="outline-light" href="https://quizzresonance.netlify.app/" class="btnDevis">Passer le test d'éligibilité</b-button>
     </div>
 
 </div>

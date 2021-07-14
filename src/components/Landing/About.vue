@@ -11,19 +11,9 @@
               qui veulent êtres des acteurs clés de cette industrie. Si vous pensez être
               à la hauteur de cette tâche, soumettez votre candidature !</p>
 
-            <b-button @click="modalShow = !modalShow" class="btnQuiz">Passer le test !</b-button>
+            <b-button href="https://quizzresonance.netlify.app/" class="btnQuiz">Passer le test !</b-button>
 
-            <b-modal v-model="modalShow">
-              <iframe
-                  width="460"
-                  height="315"
-                  src="https://www.youtube.com/embed/vsoO76T4_AQ"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen>
-              </iframe>
-            </b-modal>
+
 
           </div>
           </div>

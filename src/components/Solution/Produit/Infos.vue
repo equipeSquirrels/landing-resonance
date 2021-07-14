@@ -116,6 +116,9 @@ h2{
 h3{
   font-weight: bold;
 }
+span{
+  font-family: Quicksand, sans-serif;
+}
 
 .blob3{
   background-image: url("../../../assets/produit/blob3.svg");

@@ -20,9 +20,31 @@
 
         </div>
       <div class="devis">
-        <b-button variant="outline-light" class="btnDevis">Demander un devis</b-button>
+        <b-button variant="outline-light" to="/recrute" class="btnDevis">Demander un devis</b-button>
       </div>
-      </div>
+      <b-modal
+          v-model="modalShow"
+          class="modal bg-dark"
+          ok-variant="transparent"
+          ok-title=""
+          ok-disabled
+          cancel-disabled
+          cancel-variant="transparent"
+          cancel-title="">
+
+
+        <form class="contact-form text-center" @submit.prevent="sendEmail">
+          <h1 class="hmodal">Nous contacter</h1>
+          <div id="divider"><hr class="solid"></div>
+          <label>Name</label>
+          <input type="text" name="from_name"/>
+          <label>Email</label>
+          <input type="email" name="from_email"/>
+          <input class="btnSubmit" type="submit" value="Envoyer">
+        </form>
+      </b-modal>
+
+    </div>
 
 
   </div>
@@ -30,8 +52,24 @@
 
 
 <script>
+import emailjs from 'emailjs-com';
 export default {
-	name:'Resonance',
+  name:'Resonance',
+  data(){
+    return{
+      modalShow: false,
+    }
+  },
+  methods: {
+    sendEmail: (e) => {
+      emailjs.sendForm('service_6s1lz1d', 'template_4hsf5ml', e.target, 'user_hL82gPuLVc6rUHST4FkvM')
+          .then((result) => {
+            alert('SUCCESS!', result.status, result.text);
+          }, (error) => {
+            alert('FAILED...', error);
+          });
+    }
+  }
 }
 
 </script>
@@ -39,6 +77,22 @@ export default {
 
 
 <style scoped>
+label{
+  color: #222222;
+  font-size: 15px;
+  text-align: left!important;
+
+
+}
+.hmodal{
+  color: #222222;
+}
+.contact-form{
+  padding-top: 70px;
+  padding-bottom: 70px;
+  color: #222222;
+
+}
 #products{
   background-image: url("../../assets/header/bg-blob.svg");
   background-repeat: no-repeat;
@@ -120,9 +174,7 @@ span {
     padding: 5% 28%;
 
   }
-  .btnDevis{
 
-  }
   h2{
     padding-top: 0;
   }

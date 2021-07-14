@@ -75,8 +75,9 @@ h1{
 p{
   font-size: 24px;
   font-weight: lighter;
-  font-family: 'Quicksand', sans-serif;
+  font-family: Quicksand, sans-serif;
 }
+
 .col-md-6{
   padding-left: 10%;
 
@@ -99,7 +100,10 @@ h1 {
 p{
   font-size: 15px;
   font-weight: lighter;
-
+  font-family: Quicksand, sans-serif;
+}
+span{
+  font-family: Quicksand, sans-serif;
 }
 
 
