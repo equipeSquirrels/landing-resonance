@@ -3,7 +3,7 @@
     <div class="container">
       <div class="information">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 imgs">
             <img alt="echo" src="../../../assets/header/logo.svg" width="110px" height="110px" class="echo"/>
           </div>
           <div class="col-md-6 texte1">
@@ -30,7 +30,7 @@
             <img alt="tableau" src="../../../assets/produit/tableau.svg" width="117px" height="117px" class="tableau"/>
           </div>
           <div class="col-md-6 texte">
-            <h3 class="bold">Tableau de préconisations hiérarchisées</h3>
+            <h3 class="bolde">Tableau de préconisations hiérarchisées</h3>
             <p class="medium">Un tableau de bord opérationnel</p>
             <span class="light">Véritable outil d'aide à la création d'une roadmap de correctifs et d'évolutions,
             ce tableau de bord opérationnel rassemble les différentes préconisations issues de l'analyse des tests.</span>
@@ -161,23 +161,29 @@ h2{
   .blob4{
     display: none;
   }
-  .texte{
+  .texte, .texte3, .texte1{
     margin-left: 10%;
     padding-right: 7%;
     padding-top: 5%;
   }
- .texte1{
-   margin-left: 15%;
- }
-  .texte3{
-    margin-left: 21%;
-  }
+
+
   .btnDemoPlein{
     margin-left: 30%;
 
   }
+
   #saas{
     margin-bottom: 10%;
+  }
+  .col-md-6{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .bolde{
+    font-size: 20px;
+    font-weight: bold;
+
   }
 }
 </style>

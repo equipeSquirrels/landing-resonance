@@ -56,7 +56,7 @@
     </section>
     <div class="container">
       <div class="row dev">
-        <div class="col-md-6">
+        <div class="col-md-6 texts">
           <h3>A chaque étape du développement</h3>
           <p class="medium">
             Prototypes, MVP, produits sortis...
@@ -65,7 +65,7 @@
             Envoyez vos prototypes ou MVP à nos utilisateurs technophiles et recueillez des informations
             pertinentes pour les améliorer.</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 texts">
           <h3>Pour tous vos produits</h3>
           <p class="medium">Des wearables à l'électroménager... </p>
           <p>Faites tester un grand nombre de produits auprès de notre panel d'utilisateurs experts et collectez des datas utiles à leur amélioration.</p>
@@ -116,6 +116,7 @@ h2{
 h3{
   font-weight: bold;
 }
+
 .blob3{
   background-image: url("../../../assets/produit/blob3.svg");
   background-repeat: round;
@@ -133,7 +134,10 @@ h3{
 }
 @media screen and (min-width: 320px) and (max-width: 767px){
   .informations{
-    margin: 0 4%;
+    margin-left: 3%;
+  }
+  .texte, .textes{
+    padding: 5%;
   }
   .verbatims{
     padding: 0;
@@ -149,6 +153,14 @@ h3{
   }
   .blob3{
     display: none;
+  }
+  .col-md-6{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .texts{
+    padding-left: 6%;
+    padding-right: 6%;
   }
 
 }
