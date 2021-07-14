@@ -55,4 +55,15 @@ h1{
   background-color: #e1366a;
   color: white;
 }
+@media screen and (min-width: 320px) and (max-width: 770px){
+  .block{
+    padding: 10%
+  }
+  .btnContact, .btnDemo{
+    margin-left: 0;
+    width: 100%;
+  }
+
+
+}
 </style>

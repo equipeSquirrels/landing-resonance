@@ -2,8 +2,8 @@
   <div id="formulaire">
     <div class="container">
     <h1>Obtenez vos participants <br>en quelques clics</h1>
-    <b-row>
-      <b-col cols="8">
+    <b-row id="formulaireResponsive">
+      <b-col cols="8" id="col8">
         <b-card class="formulaire">
           <b-card-title></b-card-title>
           <b-card-body class="form">
@@ -69,11 +69,11 @@
               <b-button id="plus"><span class="plusrose">+</span> Ajoutez un critère personnalisé</b-button>
             </div>
             <h4 id="ciblage">Ciblage avancé</h4>
-            <b-row>
+            <b-row class="ciblageresponsive">
               <b-col class="toggle">
                 <input type="checkbox" class="inputCheck" id="switch" /><label class="labelSwitch" for="switch">Toggle</label>
               </b-col>
-              <b-col cols="8">
+              <b-col cols="8" id="">
                 <h5 id="quotas">Nécessite des quotas</h5>
                 <p class="light">Cette option vous permet de demander une répartition précise entre des profils (ex: 20% d'hommes
                 et 80% de femmes). En laissant cette option décochée, nous essaierons de faire une répartition, distribution équitable
@@ -383,8 +383,43 @@ h1{
 .labelSwitch:active:after {
   width: 50px;
 }
+@media screen and (min-width: 320px) and (max-width: 770px){
+#formulaireResponsive {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: space-between;
+}
+  #col8{
+    max-width: 100%;
+  }
+  .selection{
+    width: 240px;
+  }
+  #decrire{
+    margin-left: -12px;
+    width: 340px;
+  }
+  .ciblageresponsive{
 
-
-
-
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: space-between;
+  }
+  .labelSwitch{
+    margin-top: 5px;
+  }
+  #cout{
+    margin-left: 25%;
+  }
+  h1{
+    text-align: center;
+  }
+.quantity{
+  max-width: 100%;
+}
+}
 </style>

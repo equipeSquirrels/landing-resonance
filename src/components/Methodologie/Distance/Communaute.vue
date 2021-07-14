@@ -14,8 +14,9 @@
 
               <b-card-body class="avis">Résonance est une aubaine qui m'a permis de découvrir de nouveaux produits incroyables.</b-card-body>
             </b-card>
-
-         <b-card class="name2">
+        </div>
+        <div class="row space">
+            <b-card class="name2">
           <b-card-title class="titleAvatar">
             <b-avatar class="mr-3"><img alt="avatar" class="avatar" src="../../../assets/communaute/matthéo.svg"></b-avatar>
             <span class="mr-auto">Matthéo, 37 ans</span>
@@ -23,7 +24,28 @@
           <b-card-body class="avis">Travailler avec Résonance est une opportunité que je recommande à tout le monde de saisir !</b-card-body>
         </b-card>
         </div>
-        <div class="row spaces">
+          <div class="row space">
+            <b-card class="name3" id="namedesktop">
+            <b-card-title class="titleAvatar">
+              <b-avatar class="mr-3"><img alt="avatar" class="avatar" src="../../../assets/communaute/baptiste.svg"></b-avatar>
+              <span class="mr-auto">Baptiste, 31 ans</span>
+            </b-card-title>
+            <b-card-body class="avis">Résonance est une aubaine qui m'a permis de découvrir de nouveaux produits incroyables.</b-card-body>
+          </b-card>
+          </div>
+        <div class="row space">
+          <b-card class="name4" id="name4desktop">
+            <b-card-title class="titleAvatar">
+              <b-avatar class="mr-3"><img alt="avatar" class="avatar" src="../../../assets/communaute/clea.svg"></b-avatar>
+              <span class="mr-auto">Cléa, 29 ans</span>
+            </b-card-title>
+
+            <b-card-body class="avis">Tester de nouveaux produits high tech dernier cri a été une expérience très enrichissante.
+              La plateforme de Résonance est très intuitive.</b-card-body>
+          </b-card>
+
+        </div>
+        <div class="row spaces" id="nameMobile">
           <b-card class="name3">
             <b-card-title class="titleAvatar">
               <b-avatar class="mr-3"><img alt="avatar" class="avatar" src="../../../assets/communaute/baptiste.svg"></b-avatar>
@@ -98,7 +120,7 @@ export default {
 
 <style scoped>
 
-.commu{
+.space{
   margin-bottom: 10%;
   display: flex;
   flex-direction: row;
@@ -121,7 +143,9 @@ export default {
 .titleAvatar{
   width: 260px;
 }
-
+#nameMobile{
+  display: none;
+}
 span{
   font-weight: bold;
 }
@@ -237,7 +261,15 @@ h1 {
   width: 50%;
 
 }
-
+.commu{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: space-between;
+  width: auto;
+}
 .container-fluid{
   border-bottom: #e1366a 3px solid;
 }
@@ -264,9 +296,28 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-
+.commu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: space-between;
+}
 @media screen and (min-width: 320px) and (max-width: 770px){
   .container{
+    width: auto;
+  }
+  #nameMobile{
+    display: block;
+  }
+  .commu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: space-between;
     width: auto;
   }
 }
@@ -276,14 +327,6 @@ input[type=submit] {
 .contact-form{
   padding: 5% 10% ;
 }
-.commu{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: stretch;
-  align-content: space-between;
-  width: auto;
-}
+
 
 </style>
