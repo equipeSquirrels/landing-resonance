@@ -4,15 +4,15 @@
 
       <div class="col-md-4">
         <p class="bold">Qu'est-ce que je gagne avec Résonance ?</p>
-        <p class="light">Bien que Testapic soit un excellent moyen d'arrondir ses fins de mois, il ne vous
-          rendra pas riche pour autant (mais nous aimerions !).
-          Le nombre de sollicitations pour les tests dépendent de nombreux facteurs tels que votre genre,
-          votre âge ou encore votre localisation.</p>
+        <p class="light">Avec Résonance, vous recevrez le produit inédit de votre choix
+        parmi ceux disponibles sur notre catalogue.<br> Pendant un mois, vous pourrez en parler
+        sur les réseaux sociaux et nous donnez vos impressions. Et à la fin de la période de test ?
+        Le produit est à vous !</p>
       </div>
       <div class="col-md-4">
         <p class="bold">Je ne suis pas en France, puis-je m'inscrire ?</p>
-        <p class="light">Malheureusement non. Notre offre Écho commençant, elle est seulement proposée en France pour l'instant.
-          Une ouverture viendra prochainement.</p>
+        <p class="light">Malheureusement, non : pour l'instant, il n'est possible de recevoir des produits
+          en dehors de la France Métropolitaine et des DOM-TOMs.</p>
       </div>
       <div class="col-md-4">
         <p class="bold">Dois-je avoir une culture tech pour pouvoir tester ?</p>

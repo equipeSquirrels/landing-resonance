@@ -117,7 +117,10 @@ span {
     display: none;
   }
   .devis{
-    padding: 5% 70px;
+    padding: 5% 28%;
+
+  }
+  .btnDevis{
 
   }
   h2{

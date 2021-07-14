@@ -124,6 +124,23 @@ img{
 #line{
 
 }
+.container-fluid{
+  padding-left: 0;
+}
+#navmenu{
+  padding-right: 10%;
+}
+.btnContact{
+  padding: 6px 4px;
+
+}
+.navbar{
+  width: 80%;
+}
+.btnDemo{
+  padding: 6px 0;
+  width: 158px;
+}
 .solid{
   border-top: 1px solid #E1366A;
   margin: 16px 20%;

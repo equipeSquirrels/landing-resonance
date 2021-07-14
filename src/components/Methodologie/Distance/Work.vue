@@ -4,13 +4,13 @@
       <div class="row">
         <div class="col-md-6" id="resonance">
           <h2>Comment ça marche ?</h2>
-          <p>Pour réaliser des test rémunérés, inscrivez-vous dès maintenant. Suivez notre guide et commencez à réaliser vos premier tests.</p>
+          <p class="bold">Pour réaliser des test rémunérés, inscrivez-vous dès maintenant. Suivez notre guide et commencez à réaliser vos premier tests.</p>
           <ul>
             <li>Résonance vous permet de tester gratuitement et depuis chez vous de nombreux produits issu de la tech</li>
             <li>Vous réalisez des tests qui vous correspondent et analysez des produits en exclusivité.</li>
           </ul>
 
-          <b-button variant="outline-light" class="btnTesteur" to="/methodologie">Je souhaite devenir testeur</b-button>
+          <b-button variant="outline-light" class="btnTesteur" to="/methodologie">Passer le test d'éligibilité</b-button>
           <b-button variant="outline-light"  class="btnTest">Voir des exemples de tests</b-button>
         </div>
         <div class="col-md-6" id="blob1">
@@ -42,7 +42,7 @@
     </div>
 
     <div class="devis">
-      <b-button variant="outline-light" class="btnDevis">Demander un devis</b-button>
+      <b-button variant="outline-light" class="btnDevis">Passer le test d'éligibilité</b-button>
     </div>
 
 </div>

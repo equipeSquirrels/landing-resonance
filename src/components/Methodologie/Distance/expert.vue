@@ -11,28 +11,7 @@
             <li>Partagez vos impressions</li>
           </ul>
 
-          <b-button variant="outline-light" @click="modalShow = !modalShow" class="btnDemo">Demander une démo</b-button>
-          <b-modal
-              v-model="modalShow"
-              class="modal bg-dark"
-              ok-variant="transparent"
-              ok-title=""
-              ok-disabled
-              cancel-disabled
-              cancel-variant="transparent"
-              cancel-title="">
-
-
-            <form class="contact-form text-center" @submit.prevent="sendEmail">
-              <h1 class="hmodal">Nous contacter</h1>
-              <div id="divider"><hr class="solid"></div>
-              <label>Name</label>
-              <input type="text" name="from_name"/>
-              <label>Email</label>
-              <input type="email" name="from_email"/>
-              <input class="btnSubmit" type="submit" value="Envoyer">
-            </form>
-          </b-modal>
+          <b-button variant="outline-light" href="/#" class="btnDemo">Passer le test d'éligibilité</b-button>
 
         </div>
 
@@ -42,26 +21,9 @@
 </template>
 
 <script>
-import emailjs from 'emailjs-com';
+
 export default {
   name:'expert',
-  data(){
-    return{
-      modalShow: false,
-
-    }
-  },
-  methods: {
-    sendEmail: (e) => {
-      emailjs.sendForm('service_6s1lz1d', 'template_4hsf5ml', e.target, 'user_hL82gPuLVc6rUHST4FkvM')
-          .then((result) => {
-            alert('SUCCESS!', result.status, result.text);
-          }, (error) => {
-            alert('FAILED...', error);
-          });
-    }
-  }
-
 }
 </script>
 
