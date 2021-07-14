@@ -5,49 +5,42 @@
       <h2 class="text-center">Avis de la communauté</h2>
       <div class="commu">
         <div class="row space">
-          <b-card class="col-md-6">
-            <div class="col name1">
-            <b-avatar class="mr-3"><img alt="avatar" class="avatar" src="../../../assets/communaute/laura.svg"></b-avatar>
-              <span class="mr-auto">Laura, 25 ans</span>
-            </div>
-            <div class="col">
 
-            <p class="avis">Résonance est une aubaine qui m'a permis de découvrir de nouveaux produits incroyables</p>
-            </div>
+            <b-card class="name1">
+              <b-card-title class="titleAvatar">
+                <b-avatar class="mr-3"><img alt="avatar" class="avatar" src="../../../assets/communaute/laura.svg"></b-avatar>
+                <span class="mr-auto">Laura, 25 ans</span>
+              </b-card-title>
+
+              <b-card-body class="avis">Résonance est une aubaine qui m'a permis de découvrir de nouveaux produits incroyables.</b-card-body>
+            </b-card>
+          <b-card class="name2">
+            <b-card-title class="titleAvatar">
+              <b-avatar class="mr-3"><img alt="avatar" class="avatar" src="../../../assets/communaute/matthéo.svg"></b-avatar>
+              <span class="mr-auto">Matthéo, 37 ans</span>
+            </b-card-title>
+            <b-card-body class="avis">Travailler avec Résonance est une opportunité que je recommande à tout le monde de saisir !</b-card-body>
           </b-card>
-          <b-card class="col-md-6">
-            <div class="col name2">
-            <b-avatar class="mr-3"><img alt="avatar" class="avatar" src="../../../assets/communaute/matthéo.svg"></b-avatar>
-            <span class="mr-auto">Matthéo, 37 ans</span>
-            </div>
-            <div class="col">
-            <p class="avis">Travailler avec Résonance est une opportunité que je recommande à tout le monde de saisir !</p>
-            </div>
-          </b-card>
-        </div>
-          <div class="row space">
-            <b-card class="col-md-6">
-              <div class="col name3">
+
+          <b-card class="name3">
+            <b-card-title class="titleAvatar">
               <b-avatar class="mr-3"><img alt="avatar" class="avatar" src="../../../assets/communaute/baptiste.svg"></b-avatar>
               <span class="mr-auto">Baptiste, 31 ans</span>
-              </div>
-              <div class="col">
-                <p class="avis">La possibilité de tester les dernières innovations tech depuis chez soi tout en participant à l'amélioration du
-                  produit grâce à nos retours est gratifiant.</p>
-              </div>
+            </b-card-title>
+            <b-card-body class="avis">Résonance est une aubaine qui m'a permis de découvrir de nouveaux produits incroyables.</b-card-body>
+          </b-card>
 
-            </b-card>
-            <b-card class="col-md-6">
-              <div class="col name4">
-                <b-avatar class="mr-3"><img alt="avatar" class="avatar" src="../../../assets/communaute/clea.svg"></b-avatar>
-                <span class="mr-auto">Cléa, 29 ans</span>
-              </div>
-              <div class="col">
-                <p class="avis">Tester de nouveaux produits high tech dernier cri a été une expérience très enrichissante. La plateforme de Résonance est très intuitive.</p>
-              </div>
+          <b-card class="name4">
+            <b-card-title class="titleAvatar">
+              <b-avatar class="mr-3"><img alt="avatar" class="avatar" src="../../../assets/communaute/clea.svg"></b-avatar>
+              <span class="mr-auto">Cléa, 29 ans</span>
+            </b-card-title>
 
-             </b-card>
-          </div>
+            <b-card-body class="avis">Tester de nouveaux produits high tech dernier cri a été une expérience très enrichissante.
+              La plateforme de Résonance est très intuitive.</b-card-body>
+          </b-card>
+        </div>
+      </div>
 
 
 
@@ -76,7 +69,7 @@
         <!-- <iframe width="540" height="305" src="https://c54cdbe9.sibforms.com/serve/MUIEAMbIceJgO-YVwLeFg8bCOBBGESSi7jD_qiY6if5jQ7i9oWunDUSn5utk_-QmUeArCA6cEn3-cVgs0_je-9cDxjfML4ASNtWJn6dlV3lKg7YDXzjVcgklp8PLG7o-HKNy9p4IvtmqU8xb9Y1btuQeixl1wPboIvAxg2X5-Wdbsto0EJxRUCZbG43FyZJuHwx4UcJLTXViRURp" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>-->
       </div>
     </div>
-  </div>
+
 </template>
 
 <script>
@@ -110,16 +103,15 @@ export default {
 .name4{
   padding-right: 29%;
 }
-.name1{
-  padding-right: 25%;
-}
-.name2, .name3{
-  padding-right: 15%;
-}
 .name1, .name2, .name3, .name4{
+  padding-right: 0;
+  border-radius:24px;
   margin-bottom: 20px;
-  margin-right: 20px;
 }
+.titleAvatar{
+  width: 220px;
+}
+
 span{
   font-weight: bold;
 }
@@ -130,9 +122,14 @@ span{
 .space{
   margin: 20px;
 }
+.name1{
+  height: 204px;
+}
 .avis{
   font-size: 12px;
   text-align: left;
+  width: 304px;
+  padding-right: 35%;
 
 
 }

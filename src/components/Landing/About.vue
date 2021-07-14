@@ -12,7 +12,6 @@
             <p>Le pannel de testeur de Résonance est constitué de réels technophiles
             qui veulent êtres des acteurs clés de cette industrie. Si vous pensez être
             à la hauteur de cette tâche, soumettez votre candidature !</p>
-            <p class="join">Rejoindre le pannel <a href="#contact"><img id="contact" alt="click" src="../../assets/header/arrow-down-1.png" ></a> </p>
 
             <b-button @click="modalShow = !modalShow" class="btnQuiz">Passer le test !</b-button>
 
@@ -82,11 +81,12 @@ export default {
 h2 {
   font-size: 34px;
   margin-bottom: 50px;
-
   color: #000000;
+  font-weight: bold;
+  font-family: Quicksand, sans-serif;
 }
 p{
-  font-family: Ubuntu, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .img{
   width: 360px;

@@ -164,7 +164,7 @@ img{
 }
 .navbar{
   height: 100%;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Poppins', sans-serif;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -235,7 +235,7 @@ h1, p{
 
 p{
   font-size: 24px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .col-md-6{
   padding-left: 4%;

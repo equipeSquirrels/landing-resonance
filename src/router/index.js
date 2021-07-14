@@ -33,6 +33,13 @@ const routes = [
             default: () => import(/* webpackChunkName: "Mentionslegales" */ '@/view/Legale.vue'),
         },
     },
+    {
+        path:'/Confidentialite',
+        name: 'Confidentialité',
+        components: {
+            default: () => import(/* webpackChunkName: "Confidentialité" */ '@/view/Confidentialité.vue'),
+        },
+    },
 
     {
         path:'/Testeurs',

@@ -5,7 +5,7 @@
       <div class="col">
         <div class="col-md-6">
           <h1>Impulser la technologie de demain.</h1>
-          <p>La plateforme qui révolutionne la relation entre bêta-testeurs et créateurs de la tech.
+          <p class="light">La plateforme qui révolutionne la relation entre bêta-testeurs et créateurs de la tech.
             Testez votre éligibilité à devenir testeur grâce au quiz fait spécialement pour vous !</p>
 
           <p class="tech">Découvrir le futur de la tech <a href="#down"><img id="down" alt="click" src="@/assets/header/arrow-down-1.svg" ></a> </p>
@@ -53,15 +53,9 @@ h1, p{
   padding-bottom: 15px;
 }
 
-h1{
-  font-size: 72px;
-}
 
-p{
-  font-size: 24px;
-  font-weight: lighter;
-  font-family: 'Quicksand', sans-serif;
-}
+
+
 .col-md-6{
 padding-left: 10%;
 
@@ -81,7 +75,7 @@ h1 {
   font-weight: bold;
 }
 
-p{
+.light{
   font-size: 15px;
   font-weight: lighter;
 

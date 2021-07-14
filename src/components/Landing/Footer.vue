@@ -15,13 +15,13 @@
          <h6 class="fs-4 font-weight-bold">Entreprise</h6>
           <ul class="ps-0 light">
             <li>
-              <router-link to="/Contact" class="nav-link ps-0">Contactez-nous</router-link>
+              <router-link to="#" @click="modalShow = !modalShow" class="nav-link ps-0">Contactez-nous</router-link>
             </li>
             <li>
               <router-link to="/legale" class="nav-link ps-0">Mentions Légales</router-link>
             </li>
             <li>
-              <router-link to="/#Politique" class="nav-link ps-0">Politique de confidentialité</router-link>
+              <router-link to="/Confidentialite" class="nav-link ps-0">Politique de confidentialité</router-link>
             </li>
             <li>
               <a href="https://www.docdroid.net/9HnFJGm/fly-on-the-wall-livre-blanc-resonance-pdf" class="nav-link ps-0">Presse</a>
@@ -32,13 +32,13 @@
          <h6 class="fs-4 font-weight-bold">Solution</h6>
          <ul class="ps-0 light">
            <li>
-             <router-link to="/Contact" class="nav-link ps-0">Produit</router-link>
+             <router-link to="/Product" class="nav-link ps-0">Produit</router-link>
            </li>
            <li>
-             <router-link to="/legale" class="nav-link ps-0">Panel d'utilisateurs</router-link>
+             <router-link to="/Pannel" class="nav-link ps-0">Panel d'utilisateurs</router-link>
            </li>
            <li>
-             <router-link to="/#Politique" class="nav-link ps-0 pink">Demander un devis</router-link>
+             <router-link to="/recrute" class="nav-link ps-0 pink">Demander un devis</router-link>
            </li>
          </ul>
        </div>
@@ -46,13 +46,13 @@
          <h6 class="fs-4 font-weight-bold">Méthodologie</h6>
          <ul class="ps-0 light">
            <li>
-             <router-link to="/Contact" class="nav-link ps-0">Tests d'utilisateurs à distance</router-link>
+             <router-link to="/Testeurs" class="nav-link ps-0">Tests d'utilisateurs à distance</router-link>
            </li>
            <li>
-             <router-link to="/Mentions" class="nav-link ps-0">Déroulé d'un test utilisateur</router-link>
+             <router-link to="/Deroule" class="nav-link ps-0">Déroulé d'un test utilisateur</router-link>
            </li>
            <li>
-             <router-link to="/#Politique" class="nav-link ps-0 pink">Devenir testeur</router-link>
+             <router-link to="/recrute" class="nav-link ps-0 pink">Devenir testeur</router-link>
            </li>
          </ul>
        </div>
@@ -76,6 +76,7 @@
 
 
      </div>
+
 
 
 
@@ -155,7 +156,7 @@ a {
   font-weight: lighter;
 }
 p{
-  font-family: "Quicksand", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 a:hover {
