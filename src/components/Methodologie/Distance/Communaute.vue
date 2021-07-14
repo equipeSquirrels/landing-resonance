@@ -160,7 +160,7 @@ span{
 h2 {
   font-size: 34px;
   font-weight: bold;
-  font-family: "Poppin SemiBold", sans-serif;
+  font-family: "Poppins SemiBold", sans-serif;
   color: #000000;
 }
 p{

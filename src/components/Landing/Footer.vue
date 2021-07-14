@@ -156,7 +156,7 @@ a {
   font-weight: lighter;
 }
 p{
-  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 a:hover {

@@ -102,7 +102,7 @@ h4 {
 p {
   font-size: 16px;
   font-weight: lighter;
-  font-family: "Poppins",sans-serif;
+  font-family: "Quicksand",sans-serif;
 }
 
 .container-fluid{

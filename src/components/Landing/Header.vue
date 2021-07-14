@@ -164,7 +164,7 @@ img{
 }
 .navbar{
   height: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   width: 100%;
   display: flex;
   flex-direction: row;

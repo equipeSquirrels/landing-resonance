@@ -83,10 +83,10 @@ h2 {
   margin-bottom: 50px;
   color: #000000;
   font-weight: bold;
-  font-family: Quicksand, sans-serif;
+  font-family: "Poppins SemiBold", sans-serif;
 }
 p{
-  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 .img{
   width: 360px;

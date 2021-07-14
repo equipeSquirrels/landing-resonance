@@ -78,11 +78,11 @@ export default {
 h2 {
   font-size: 34px;
   font-weight: bold;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Poppins SemiBold", sans-serif;
   color: #000000;
 }
 p{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   margin-bottom: 0;
   color: #000000;
 }
