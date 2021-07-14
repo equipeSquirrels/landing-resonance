@@ -14,14 +14,16 @@
 
               <b-card-body class="avis">Résonance est une aubaine qui m'a permis de découvrir de nouveaux produits incroyables.</b-card-body>
             </b-card>
-          <b-card class="name2">
-            <b-card-title class="titleAvatar">
-              <b-avatar class="mr-3"><img alt="avatar" class="avatar" src="../../../assets/communaute/matthéo.svg"></b-avatar>
-              <span class="mr-auto">Matthéo, 37 ans</span>
-            </b-card-title>
-            <b-card-body class="avis">Travailler avec Résonance est une opportunité que je recommande à tout le monde de saisir !</b-card-body>
-          </b-card>
 
+         <b-card class="name2">
+          <b-card-title class="titleAvatar">
+            <b-avatar class="mr-3"><img alt="avatar" class="avatar" src="../../../assets/communaute/matthéo.svg"></b-avatar>
+            <span class="mr-auto">Matthéo, 37 ans</span>
+          </b-card-title>
+          <b-card-body class="avis">Travailler avec Résonance est une opportunité que je recommande à tout le monde de saisir !</b-card-body>
+        </b-card>
+        </div>
+        <div class="row spaces">
           <b-card class="name3">
             <b-card-title class="titleAvatar">
               <b-avatar class="mr-3"><img alt="avatar" class="avatar" src="../../../assets/communaute/baptiste.svg"></b-avatar>
@@ -29,6 +31,7 @@
             </b-card-title>
             <b-card-body class="avis">Résonance est une aubaine qui m'a permis de découvrir de nouveaux produits incroyables.</b-card-body>
           </b-card>
+
 
           <b-card class="name4">
             <b-card-title class="titleAvatar">
@@ -39,9 +42,10 @@
             <b-card-body class="avis">Tester de nouveaux produits high tech dernier cri a été une expérience très enrichissante.
               La plateforme de Résonance est très intuitive.</b-card-body>
           </b-card>
+          </div>
         </div>
-      </div>
 
+      <div>
 
 
       </div>
@@ -69,7 +73,7 @@
         <!-- <iframe width="540" height="305" src="https://c54cdbe9.sibforms.com/serve/MUIEAMbIceJgO-YVwLeFg8bCOBBGESSi7jD_qiY6if5jQ7i9oWunDUSn5utk_-QmUeArCA6cEn3-cVgs0_je-9cDxjfML4ASNtWJn6dlV3lKg7YDXzjVcgklp8PLG7o-HKNy9p4IvtmqU8xb9Y1btuQeixl1wPboIvAxg2X5-Wdbsto0EJxRUCZbG43FyZJuHwx4UcJLTXViRURp" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>-->
       </div>
     </div>
-
+  </div>
 </template>
 
 <script>
@@ -96,6 +100,12 @@ export default {
 
 .commu{
   margin-bottom: 10%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: space-between;
 }
 .actualite{
   margin-bottom: 10%;
@@ -109,7 +119,7 @@ export default {
   margin-bottom: 20px;
 }
 .titleAvatar{
-  width: 220px;
+  width: 260px;
 }
 
 span{
@@ -123,7 +133,10 @@ span{
   margin: 20px;
 }
 .name1{
-  height: 204px;
+  height: 200px;
+}
+.name3{
+  height: 200px;
 }
 .avis{
   font-size: 12px;
@@ -195,16 +208,7 @@ h1 {
 
 
 
-.logo_newsletter{
 
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-
-}
 
 #login {
   width: 400px;
@@ -266,7 +270,20 @@ input[type=submit] {
     width: auto;
   }
 }
+.spaces{
+  margin:0 20px
+}
 .contact-form{
   padding: 5% 10% ;
 }
+.commu{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: space-between;
+  width: auto;
+}
+
 </style>

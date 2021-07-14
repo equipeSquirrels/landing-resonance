@@ -21,12 +21,15 @@
       </div>
     <div class="banner_content">
       <div class="container">
-        <div class="row">
+
           <div id="frame">
             <img src="@/assets/content/frame.svg" alt="frame" width="auto" class="img">
-
           </div>
-        </div>
+          <div id="frame_mobile">
+            <img src="@/assets/header/mobile/frame.svg" alt="frame" width="auto" class="img">
+          </div>
+
+
         <div class="row">
           <div class="col-md-6" id="testeur">
             <h2>De quoi ai-je besoin pour commencer ?</h2>
@@ -185,6 +188,13 @@ span {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+#blob2{
+
+  margin-right: 10%;
+  margin-top: -20%;
+
+
+}
 
 .row{
   display: flex;
@@ -195,13 +205,12 @@ span {
   align-content: stretch;
 }
 
-@media screen and (min-width: 320px) and (max-width: 770px){
-  .img_content{
-    width: 100%;
-    height: 100%;
-  }
-  .responsive{
-    display: none;
+#frame_mobile{
+  display:none;
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+  .btnTesteur{
+    margin-bottom: 2%;
   }
   .col-md-6{
     padding: 2%;
@@ -209,28 +218,17 @@ span {
   #testeur{
     padding-top: 10%;
   }
-  .btnQuiz{
-    color: #ffffff;
-    background: #e1366a;
-    border-style: none;
-    font-weight: bold;
-
+  #frame_mobile{
+    display: block;
   }
-  #blob2{
-
-    margin-right: 10%;
-    margin-top: -20%;
-    width: 50%;
-
+  #frame{
+    display: none;
   }
-  .join{
-    padding-right: 20px;
-  }
-  #contact{
-    width: 24px;
-    height: 24px;
+#blob2{
+  display: none;
+}
 
-  }
+
   h2 {
     font-size: 34px;
     margin-bottom: 50px;
@@ -238,13 +236,9 @@ span {
     color: #000000;
   }
   p{
-    font-family: Ubuntu, sans-serif;
+    font-family: Quicksand, sans-serif;
   }
-  .img{
-    width: 360px;
-    height: 380px;
 
-  }
 
 
   h1, p {

@@ -17,6 +17,9 @@
 
       </div>
     </div>
+    <div class="graph">
+      <img src="../../../assets/header/mobile/graph.svg" alt="graph">
+    </div>
   </div>
 </template>
 
@@ -119,9 +122,17 @@ p{
 img{
   width: 100%;
 }
-@media screen and (min-width: 320px) and (max-width: 770px){
-  .img_header{
-    display: none;
+.graph{
+  display: none;
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+  #banner{
+    background-image: none;
+    background-color: #FFECEC;
+    padding-bottom: 0;
+  }
+  .graph{
+    display: block;
   }
 }
 .btnDemo{
