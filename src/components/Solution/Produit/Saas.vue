@@ -1,41 +1,57 @@
 <template>
   <div id="saas">
     <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <img alt="echo" src="../../../assets/header/logo.svg" width="110px" height="110px" class="echo"/>
-        </div>
-        <div class="col-md-6 texte1">
-          <h3 class="bold">ÉCHO, solution SaaS</h3>
-          <p class="medium">Orientée data-visualisation</p>
-          <span class="light">Outil de traitement des données et vitrine présentant les résultats d'analyses, notre plateforme SaaS a été développé
+      <div class="information">
+        <div class="row">
+          <div class="col-md-6">
+            <img alt="echo" src="../../../assets/header/logo.svg" width="110px" height="110px" class="echo"/>
+          </div>
+          <div class="col-md-6 texte1">
+            <h3 class="bold">ÉCHO, solution SaaS</h3>
+            <p class="medium">Orientée data-visualisation</p>
+            <span class="light">Outil de traitement des données et vitrine présentant les résultats d'analyses, notre plateforme SaaS a été développé
           dans un soucis de précision et de simplicité.</span>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 texte">
-          <h3 class="bold">Tableau de préconisations hiérarchisées</h3>
-          <p class="medium">Un tableau de bord opérationnel</p>
-          <span class="light">Véritable outil d'aide à la création d'une roadmap de correctifs et d'évolutions,
+        <div class="row" id="desktops">
+          <div class="col-md-6 texte">
+            <h3 class="bold">Tableau de préconisations hiérarchisées</h3>
+            <p class="medium">Un tableau de bord opérationnel</p>
+            <span class="light">Véritable outil d'aide à la création d'une roadmap de correctifs et d'évolutions,
             ce tableau de bord opérationnel rassemble les différentes préconisations issues de l'analyse des tests.</span>
-        </div>
-        <div class="col-md-6">
-          <img alt="tableau" src="../../../assets/produit/tableau.svg" width="117px" height="117px" class="tableau"/>
-        </div>
-      </div>
-
-      <div class="row ">
-        <div class="col-md-6">
-          <img alt="synthese" src="../../../assets/produit/synthese.svg" width="119px" height="118px" class="synthese"/>
+          </div>
+          <div class="col-md-6">
+            <img alt="tableau" src="../../../assets/produit/tableau.svg" width="117px" height="117px" class="tableau"/>
+          </div>
         </div>
 
-        <div class="col-md-6 texte3">
-          <h3 class="bold">Présentation de synthèse</h3>
-          <p class="medium">Un outil de communication interne</p>
-          <span class="light">Toujours sur la base des données utilisateurs, elle permet une communication ciblée
+        <div class="row" id="mobiles">
+          <div class="col-md-6">
+            <img alt="tableau" src="../../../assets/produit/tableau.svg" width="117px" height="117px" class="tableau"/>
+          </div>
+          <div class="col-md-6 texte">
+            <h3 class="bold">Tableau de préconisations hiérarchisées</h3>
+            <p class="medium">Un tableau de bord opérationnel</p>
+            <span class="light">Véritable outil d'aide à la création d'une roadmap de correctifs et d'évolutions,
+            ce tableau de bord opérationnel rassemble les différentes préconisations issues de l'analyse des tests.</span>
+          </div>
+
+        </div>
+
+        <div class="row ">
+          <div class="col-md-6">
+            <img alt="synthese" src="../../../assets/produit/synthese.svg" width="119px" height="118px" class="synthese"/>
+          </div>
+
+          <div class="col-md-6 texte3">
+            <h3 class="bold">Présentation de synthèse</h3>
+            <p class="medium">Un outil de communication interne</p>
+            <span class="light">Toujours sur la base des données utilisateurs, elle permet une communication ciblée
             et optimale pour mobiliser les parties prenantes en interne suite à l'étude utilisateur.</span>
+          </div>
         </div>
       </div>
+
 
 
         <b-button variant="outline-light"  class="  btnDemoPlein">Demander une démo</b-button>
@@ -125,5 +141,43 @@ h2{
   margin-right: 77%;
 
 
+}
+#mobiles{
+  display: none;
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+  #desktops{
+    display: none;
+  }
+  #mobiles{
+    display: block;
+  }
+  .information{
+    margin: 0 4%;
+  }
+  .echo, .tableau, .synthese{
+    margin-left: 30%;
+  }
+  .blob4{
+    display: none;
+  }
+  .texte{
+    margin-left: 10%;
+    padding-right: 7%;
+    padding-top: 5%;
+  }
+ .texte1{
+   margin-left: 15%;
+ }
+  .texte3{
+    margin-left: 21%;
+  }
+  .btnDemoPlein{
+    margin-left: 30%;
+
+  }
+  #saas{
+    margin-bottom: 10%;
+  }
 }
 </style>

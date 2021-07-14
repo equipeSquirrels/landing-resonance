@@ -8,7 +8,7 @@
             s'adapte à vos besoins. Résonance garanti un suivi de qualité auprès d'un
             nombre modulable d'expert-testeurs qui vous seront alloués</p>
           </b-col>
-          <div class="row">
+          <div class="row pack">
           <div class="icon col-md-4 text-center">
             <img v-bind:src="require('../../assets/content/participants.svg')" class="center-block" width="110px" height="100px" alt="participant" />
             <h4>Participants</h4>
@@ -50,6 +50,9 @@ export default {
 .row{
   padding-left: 5%;
 }
+.pack{
+  padding-left: 16%;
+}
 .col-md-4{
   width: 311px;
   height: 360px;
@@ -81,9 +84,25 @@ h1{
   img {width: 30%}
 }
 
+@media screen and (min-width: 320px) and (max-width: 770px){
+  h2{
+    padding-top: 50px;
+  }
+  #packs{
+    margin-left: 0;
 
+  }
+  .pack{
+    padding-bottom: 5%;
+    padding-left: 12%;
+  }
+}
 .service .container {
   background-color: #444444;
+}
+.col-md-4{
+  width: 240px;
+  height: 250px;
 }
 
 #services {

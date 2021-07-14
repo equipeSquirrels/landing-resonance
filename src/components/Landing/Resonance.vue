@@ -4,7 +4,7 @@
 
     <div className="container-fluid">
       <div class="container">
-          <div class="row">
+          <div class="row resonance">
             <div class="col-md-6" id="resonance">
               <h2>Faites tester vos produits par de vrais experts</h2>
               <p>Notre but : faire tester à notre super panel de technophiles les meilleurs produits de
@@ -51,7 +51,7 @@ export default {
 }
 .devis{
   background: #e1366a;
-  padding: 5%;
+  padding: 5% 42%;
   margin-top:-4%;
 }
 .btnDevis{
@@ -102,7 +102,7 @@ span {
 
 
 
-.row{
+.resonance{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -116,8 +116,12 @@ span {
   .responsive{
     display: none;
   }
-  .col-md-6{
-    padding: 2%;
+  .devis{
+    padding: 5% 70px;
+
+  }
+  h2{
+    padding-top: 0;
   }
 
 

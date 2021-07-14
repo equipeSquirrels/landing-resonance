@@ -2,17 +2,17 @@
   <div id="collecte">
 
     <div class="banner_content">
-      <div class="col">
+
+      <div class="row">
         <div class="col-md-6">
           <h1>Collecter les attentes et les réflexions des utilisateurs.</h1>
           <p>Résonance propose l'une des meilleures solutions SaaS pour améliorer
           vos produits en fonction des retours testeurs.</p>
-
-
             <b-button variant="outline-light" class="btnDevis">Demander une démo</b-button>
-
         </div>
-
+      </div>
+      <div class="graph">
+        <img src="../../../assets/produit/mobile/graph.svg" alt="graph">
       </div>
     </div>
   </div>
@@ -32,13 +32,18 @@ export default {
   color: white;
   margin: auto;
 }
+
 .img_header{
   width: 70%;
   height: 300px;
   padding-bottom: 2%;
 }
 img{
-  width: auto;
+  width: 296px;
+  height: 212px;
+}
+.img_responsive{
+  display: none;
 }
 #collecte {
 
@@ -50,6 +55,9 @@ img{
   padding-top: 5%;
 
 
+}
+.graph{
+  display: none;
 }
 #down{
   width: 24px;
@@ -115,9 +123,19 @@ p{
 img{
   width: 100%;
 }
-@media screen and (min-width: 320px) and (max-width: 770px){
-  .img_header{
-    display: none;
+@media screen and (min-width: 320px) and (max-width: 767px){
+  #collecte{
+   background-color: #F6F4FC ;
+    padding-bottom: 0;
+    background-image: none;
+
   }
+  .graph{
+    display: block;
+  }
+.btnDevis{
+  margin-left: 20%;
 }
+}
+
 </style>

@@ -1,39 +1,55 @@
 <template>
   <div id="infos">
     <div class="container">
-      <h2 class="text-center">Vous collectez</h2>
-      <div class="row">
-        <div class="col-md-6">
-          <img alt="video" src="../../../assets/produit/video.svg"/>
+      <div class="informations">
+        <h2 class="text-center">Vous collectez</h2>
+        <div class="row">
+          <div class="col-md-6 img_collecte">
+            <img alt="video" src="../../../assets/produit/video.svg"/>
+          </div>
+          <div class="col-md-6 texte">
+            <p class="bold">...des vidéos commentées à voix haute</p>
+            <span class="light">Nos tests vidéos enregistrent l'écran de l'utilisateur pendant qu'il navigue en autonomie</span>
+          </div>
         </div>
-        <div class="col-md-6 texte">
-          <p class="bold">...des vidéos commentées à voix haute</p>
-          <span class="light">Nos tests vidéos enregistrent l'écran de l'utilisateur pendant qu'il navigue en autonomie</span>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 textes">
-          <p class="bold">...des verbatims écrits</p>
-          <span class="light">Dans le cadre de tests questionnaires, les utilisateurs formalisent pendant leur
+        <div class="row" id="desktop">
+          <div class="col-md-6 textes">
+            <p class="bold">...des verbatims écrits</p>
+            <span class="light">Dans le cadre de tests questionnaires, les utilisateurs formalisent pendant leur
           navigation des commentaires écrits traduisant leur perception, leur ressenti et/ou leur compréhension.
           A travers une analyse sémantique de leur valence, ces verbatims apportent alors une nuance aux résultats chiffrés.</span>
+          </div>
+          <div class="col-md-6 img_collecte">
+            <img alt="verbatims" src="../../../assets/produit/verbatims.svg" class="verbatims"/>
+          </div>
         </div>
-        <div class="col-md-6">
-          <img alt="verbatims" src="../../../assets/produit/verbatims.svg" class="verbatims"/>
+
+        <div class="row" id="mobile">
+          <div class="col-md-6 img_collecte">
+            <img alt="verbatims" src="../../../assets/produit/verbatims.svg" class="verbatims"/>
+          </div>
+          <div class="col-md-6 textes">
+            <p class="bold">...des verbatims écrits</p>
+            <span class="light">Dans le cadre de tests questionnaires, les utilisateurs formalisent pendant leur
+          navigation des commentaires écrits traduisant leur perception, leur ressenti et/ou leur compréhension.
+          A travers une analyse sémantique de leur valence, ces verbatims apportent alors une nuance aux résultats chiffrés.</span>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <img alt="donnees" src="../../../assets/produit/donnees.svg"/>
-        </div>
-        <div class="col-md-6 texte">
-          <p class="bold">...des données quantitatives</p>
-          <span class="light">Lors de nos tests quantitatifs, des échantillons représentatids d'utilisateurs
+
+        <div class="row">
+          <div class="col-md-6 img_collecte">
+            <img alt="donnees" src="../../../assets/produit/donnees.svg"/>
+          </div>
+          <div class="col-md-6 texte">
+            <p class="bold">...des données quantitatives</p>
+            <span class="light">Lors de nos tests quantitatifs, des échantillons représentatids d'utilisateurs
           fournissent des données chiffrées issues de questions fermées. Combien d'utilisateurs sont
           passés par le menu ? Combien ont trouvé "facile" le parcours de souscription ? Ce type de test
           apportera une réponse statistiquement fiable à ces questions.</span>
+          </div>
         </div>
       </div>
+
     </div>
     <section class="blob3">
 
@@ -112,5 +128,28 @@ h3{
 #infos{
   margin: 5% 0;
 }
+#mobile{
+  display: none;
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+  .informations{
+    margin: 0 4%;
+  }
+  .verbatims{
+    padding: 0;
+  }
+  #infos{
+    margin-top: 75px;
+  }
+  #desktop{
+    display: none;
+  }
+  #mobile{
+    display: block;
+  }
+  .blob3{
+    display: none;
+  }
 
+}
 </style>

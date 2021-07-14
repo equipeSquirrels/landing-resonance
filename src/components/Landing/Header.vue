@@ -22,7 +22,7 @@
           </b-nav-item-dropdown>
 
           <b-nav-item-dropdown class="dropDown" text="Méthodologie" right>
-            <b-dropdown-item class="drop" to="/Testeurs">Tests Utilisateur à Distance</b-dropdown-item>
+            <b-dropdown-item class="drop" to="/Methodologie">Tests Utilisateur à Distance</b-dropdown-item>
             <b-dropdown-item class="drop" to="/Deroule">Déroulé d'un Test Utilisateur</b-dropdown-item>
           </b-nav-item-dropdown>
 
@@ -32,38 +32,17 @@
 
         <b-navbar-nav class="ml-md-auto" id="navBtn">
 
-          <b-nav-item to="/recrute" exact-active-class="active">
+          <b-nav-item to="/Testeurs" exact-active-class="active">
             <b-button variant="outline-light" class="btnContact">Devenir testeur</b-button>
           </b-nav-item>
 
-          <b-nav-item to="#" exact-active-class="active">
-            <b-button variant="outline-light" @click="modalShow = !modalShow" class="btnDemo">Demander une démo</b-button>
+          <b-nav-item to="/recrute" exact-active-class="active">
+            <b-button variant="outline-light"  class="btnDemo">Demander un devis</b-button>
           </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
 
-    <b-modal
-        v-model="modalShow"
-        class="modal bg-transparent"
-        ok-variant="transparent"
-        ok-title=""
-        ok-disabled
-        cancel-disabled
-        cancel-variant="transparent"
-        cancel-title="">
-
-
-      <form class="contact-form text-center" @submit.prevent="sendEmail">
-        <h1 class="hmodal">Nous contacter</h1>
-        <div id="divider"><hr class="solid"></div>
-        <label>Name</label>
-        <input type="text" name="from_name"/>
-        <label>Email</label>
-        <input type="email" name="from_email"/>
-        <input class="btnSubmit" type="submit" value="Envoyer">
-      </form>
-    </b-modal>
 
 
   </div>
@@ -117,8 +96,8 @@ label{
 
 }
 @media screen and (min-width: 320px) and (max-width: 770px){
-  .img_header{
-    display: none;
+  .navbar{
+    color: #e1366a;
   }
 }
 .drop{

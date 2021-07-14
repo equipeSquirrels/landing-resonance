@@ -1,18 +1,18 @@
 <template>
-   <div class="footer">
+  <div class="footer">
 
-   <div class="container d-md-block">
-     <div class="row">
-       <div class="col foot">
-         <img alt="logo" src="../../assets/footer/resonance.svg">
-       </div>
-       <div class="col">
-         <b-button variant="outline-light" class="btnConnexion"><img src="../../assets/header/user.svg" alt="user"> Connexion</b-button>
-       </div>
-     </div>
-     <div class="row">
-       <div class="col">
-         <h6 class="fs-4 font-weight-bold">Entreprise</h6>
+    <div class="container d-md-block">
+      <div class="row">
+        <div class="col foot">
+          <img alt="logo" src="../../assets/footer/resonance.svg">
+        </div>
+        <div class="col">
+          <b-button variant="outline-light" class="btnConnexion"><img src="../../assets/header/user.svg" alt="user"> Connexion</b-button>
+        </div>
+      </div>
+      <div class="col menu">
+        <div class="col ">
+          <h6 class="fs-4 font-weight-bold">Entreprise</h6>
           <ul class="ps-0 light">
             <li>
               <router-link to="#" @click="modalShow = !modalShow" class="nav-link ps-0">Contactez-nous</router-link>
@@ -27,60 +27,64 @@
               <a href="https://www.docdroid.net/9HnFJGm/fly-on-the-wall-livre-blanc-resonance-pdf" class="nav-link ps-0">Presse</a>
             </li>
           </ul>
-       </div>
-       <div class="col">
-         <h6 class="fs-4 font-weight-bold">Solution</h6>
-         <ul class="ps-0 light">
-           <li>
-             <router-link to="/Product" class="nav-link ps-0">Produit</router-link>
-           </li>
-           <li>
-             <router-link to="/Pannel" class="nav-link ps-0">Panel d'utilisateurs</router-link>
-           </li>
-           <li>
-             <router-link to="/recrute" class="nav-link ps-0 pink">Demander un devis</router-link>
-           </li>
-         </ul>
-       </div>
-       <div class="col">
-         <h6 class="fs-4 font-weight-bold">Méthodologie</h6>
-         <ul class="ps-0 light">
-           <li>
-             <router-link to="/Testeurs" class="nav-link ps-0">Tests d'utilisateurs à distance</router-link>
-           </li>
-           <li>
-             <router-link to="/Deroule" class="nav-link ps-0">Déroulé d'un test utilisateur</router-link>
-           </li>
-           <li>
-             <router-link to="/recrute" class="nav-link ps-0 pink">Devenir testeur</router-link>
-           </li>
-         </ul>
-       </div>
-       <div class="col">
-         <h6 class="fs-4 font-weight-bold">Blog</h6>
-       </div>
-     </div>
+        </div>
+        <div class="col">
+          <h6 class="fs-4 font-weight-bold">Solution</h6>
+          <ul class="ps-0 light">
+            <li>
+              <router-link to="/Product" class="nav-link ps-0">Produit</router-link>
+            </li>
+            <li>
+              <router-link to="/Pannel" class="nav-link ps-0">Panel d'utilisateurs</router-link>
+            </li>
+            <li>
+              <router-link to="/recrute" class="nav-link ps-0 pink">Demander un devis</router-link>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <h6 class="fs-4 font-weight-bold">Méthodologie</h6>
+          <ul class="ps-0 light">
+            <li>
+              <router-link to="/Testeurs" class="nav-link ps-0">Tests d'utilisateurs à distance</router-link>
+            </li>
+            <li>
+              <router-link to="/Deroule" class="nav-link ps-0">Déroulé d'un test utilisateur</router-link>
+            </li>
+            <li>
+              <router-link to="/recrute" class="nav-link ps-0 pink">Devenir testeur</router-link>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <h6 class="fs-4 font-weight-bold">Blog</h6>
+        </div>
+      </div>
 
-    <div class="row">
-      <div class="col copyright">
-        <p class="droitFooter">Copyright © 2021 Résonance. Tous droits réservés.<br/>
-          Par Squirrels. Projet de fin d'année à titre fictif</p>
+      <div class="col">
+        <div class="col copyright">
+          <p class="droitFooter">Copyright © 2021 Résonance. Tous droits réservés.<br/>
+            Par Squirrels. Projet de fin d'année à titre fictif</p>
+        </div>
+        <div class="col RS">
+          <a href="https://www.instagram.com/tech.resonance/"><img alt="instagram" class="instagram" src="@/assets/footer/instagram.svg"></a>
+          <a href="https://www.linkedin.com/company/tech-r%C3%A9sonance/"><img alt="linkedin" class="linkedin" src="@/assets/footer/linkedin.svg"></a>
+          <a href="https://www.youtube.com/channel/UCwLZBX3OMEk48ObauN4EMog"><img alt="youtube" class="youtube" src="@/assets/footer/youtube.svg"></a>
+          <a href="https://www.twitch.tv/resonancetech"><img alt="twitch" class="twitch" src="@/assets/footer/twitch.svg"></a>
+        </div>
       </div>
-      <div class="col RS">
-        <a href="https://www.instagram.com/tech.resonance/"><img alt="instagram" class="instagram" src="@/assets/footer/instagram.svg"></a>
-        <a href="https://www.linkedin.com/company/tech-r%C3%A9sonance/"><img alt="linkedin" class="linkedin" src="@/assets/footer/linkedin.svg"></a>
-        <a href="https://www.youtube.com/channel/UCwLZBX3OMEk48ObauN4EMog"><img alt="youtube" class="youtube" src="@/assets/footer/youtube.svg"></a>
-        <a href="https://www.twitch.tv/resonancetech"><img alt="twitch" class="twitch" src="@/assets/footer/twitch.svg"></a>
-      </div>
+
+
     </div>
 
-
-     </div>
-
+  </div>
 
 
 
-   </div>
+
+
+
+
 
 
 </template>
@@ -88,10 +92,9 @@
 
 <script>
 export default {
-    name:'Footer',
+  name:'Footer',
   components:{}
 }
-
 </script>
 
 
@@ -130,6 +133,12 @@ h6{
   font-size: 15px;
   padding-left: 55px;
 }
+.menu {
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
 .instagram{
   width: 24px;
   height: 24px;
@@ -158,29 +167,19 @@ a {
 p{
   font-family: "Quicksand", sans-serif;
 }
-
 a:hover {
   color: #E1366A;
 }
-
-
-
 #map {
   padding: 10px;
   width: 300px;
 }
-
 h5 {
   color: #E1366A;
-
 }
-
 .menub {
   display: grid;
 }
-
-
-
 .footer{
   background-color: #FAFAFA;
   padding-top: 40px;
@@ -189,4 +188,49 @@ h5 {
   font-family: Ubuntu, sans-serif;
   border-top: 3px solid #e1366a;
 }
+.footer_responsive{
+  display: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 770px){
+  .user{
+    display: none;
+  }
+  .foot{
+    width: auto;
+    margin-left: 7%;
+  }
+  .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .menu{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .pink, .presse{
+    padding-bottom: 15%;
+  }
+  .RS {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+
+  }
+  .copyright{
+    padding-left: 0;
+  }
+  .instagram, .linkedin, .youtube, .twitch{
+
+    width: 30px;
+    height: 30px;
+  }
+}
+
 </style>

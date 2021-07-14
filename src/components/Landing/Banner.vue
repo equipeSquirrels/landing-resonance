@@ -2,7 +2,7 @@
   <div id="banner">
 
     <div class="banner_content">
-      <div class="col">
+      <div class="row">
         <div class="col-md-6">
           <h1>Impulser la technologie de demain.</h1>
           <p class="light">La plateforme qui révolutionne la relation entre bêta-testeurs et créateurs de la tech.
@@ -11,8 +11,10 @@
           <p class="tech">Découvrir le futur de la tech <a href="#down"><img id="down" alt="click" src="@/assets/header/arrow-down-1.svg" ></a> </p>
          </div>
 
+
       </div>
     </div>
+    <div id="fusee"></div>
   </div>
 </template>
 
@@ -34,15 +36,11 @@ img{
   width: auto;
 }
 #banner {
-
-
   background-image: url("../../assets/header/home.svg");
   background-repeat: no-repeat;
   background-size: contain;
   padding-bottom: 23%;
   padding-top: 5%;
-
-
 }
 #down{
   width: 14px;
@@ -57,7 +55,8 @@ h1, p{
 
 
 .col-md-6{
-padding-left: 10%;
+padding-left: 15%;
+  padding-right: 0;
 
 }
 .scroll{
@@ -71,13 +70,14 @@ h1, p {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 36px;
   font-weight: bold;
 }
 
 .light{
   font-size: 15px;
   font-weight: lighter;
+  margin-right: 15px;
 
 }
 
@@ -102,9 +102,19 @@ h1 {
 img{
   width: 100%;
 }
-@media screen and (min-width: 320px) and (max-width: 770px){
-  .img_header{
-    display: none;
-  }
+@media screen and (min-width: 320px) and (max-width: 767px){
+ #banner{
+   background-image: url("../../assets/home_mobile/home_mobile.svg");
+   background-repeat: no-repeat;
+   background-size: cover;
+  width: 100%;
+ }
+ #fusee{
+   background-image: url("../../assets/home_mobile/fusee.svg");
+   background-repeat: no-repeat;
+   background-size: contain;
+
+ }
+
 }
 </style>

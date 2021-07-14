@@ -14,7 +14,6 @@
 
               <input type="email"  value="" name="EMAIL" id="mce-EMAIL" placeholder="Email">
 
-              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
               <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a83e1161e53837d436ac2f0f0_4f6c2f1b46" tabindex="-1" value=""></div>
               <div class="clear"><input type="submit" value="Envoyer" name="Envoyer" id="mc-embedded-subscribe" class="btn"></div>
 
@@ -23,8 +22,7 @@
         </div>
         <p class="rgpd">En soumettant ce formulaire, vous acceptez que Résonance concerne et utilise vos
         données personnelles dans les conditions décrites dans la Politique de confidentialité. </p>
-         <!-- <iframe width="540" height="305" src="https://c54cdbe9.sibforms.com/serve/MUIEAMbIceJgO-YVwLeFg8bCOBBGESSi7jD_qiY6if5jQ7i9oWunDUSn5utk_-QmUeArCA6cEn3-cVgs0_je-9cDxjfML4ASNtWJn6dlV3lKg7YDXzjVcgklp8PLG7o-HKNy9p4IvtmqU8xb9Y1btuQeixl1wPboIvAxg2X5-Wdbsto0EJxRUCZbG43FyZJuHwx4UcJLTXViRURp" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>-->
-      </div>
+       </div>
   </div>
   </div>
 </template>
@@ -62,7 +60,7 @@ export default {
   padding: 12px;
   margin-right: 10px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 12px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
@@ -92,7 +90,7 @@ label{
 .contact{
   padding-top: 70px;
   padding-bottom: 70px;
-  background: #ffdada;
+  background: #FFECEC;
 }
 
 img {
@@ -113,30 +111,6 @@ h1 {
 
 
 
-.logo_newsletter{
-
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-
-}
-
-#login {
- width: 400px;
- border: 2px solid #CCCCCC;
- background-color: white;
- margin: auto;
- margin-top: 20px;
- padding: 20px;
-
-}
-#map{
- margin-left: 470px;
- margin-top: 20px;
-}
 
  * {box-sizing: border-box;}
 
@@ -146,7 +120,7 @@ h1 {
 
   text-align: center;
   border-radius: 5px;
-  background: #ffdada;
+  background:#FFECEC;
   padding: 20px;
   width: 50%;
 
@@ -163,7 +137,7 @@ input[type=text], [type=email], textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 12px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
@@ -175,13 +149,19 @@ input[type=submit] {
   color: white;
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 12px;
   cursor: pointer;
 }
 
  @media screen and (min-width: 320px) and (max-width: 770px){
    .container{
      width: auto;
+   }
+   input, #mce-EMAIL{
+     width: 90%;
+   }
+   #mce-EMAIL{
+     margin-right: 0;
    }
  }
 .contact-form{

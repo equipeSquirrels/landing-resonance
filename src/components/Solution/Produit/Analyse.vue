@@ -44,4 +44,12 @@ h1{
   margin-left: 35%;
   margin-top: 5%;
 }
+@media screen and (min-width: 320px) and (max-width: 767px){
+  .block{
+    padding: 10%
+  }
+  .btnDemo{
+    margin-left: 20%;
+  }
+}
 </style>
