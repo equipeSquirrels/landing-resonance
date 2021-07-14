@@ -16,6 +16,9 @@
 
         </div>
       </div>
+      <div class="graph">
+        <img src="../../../assets/testuser/mobile/graph.svg" alt="graph">
+      </div>
     </div>
   </div>
 </template>
@@ -83,5 +86,25 @@ h2, h1{
   background-size: contain;
   padding-bottom: 23%;
   padding-top: 5%;
+}
+.graph{
+  display: none;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  #distance {
+    background-color: #FFECEC;
+    padding-bottom: 0;
+    background-image: none;
+
+  }
+
+.btnDemo{
+  margin-left: 10%;
+}
+  .graph {
+    display: block;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
 }
 </style>

@@ -40,4 +40,15 @@ h1{
   margin: 0 30%;
   border-radius: 12px;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .conduire {
+    margin: 5% 0;
+  }
+  .btnDemo{
+    margin: 0 24%;
+  }
+  #vertical{
+    margin: 7px 50%;
+  }
+}
 </style>

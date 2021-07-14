@@ -2,7 +2,7 @@
   <div id="container cardTesteur">
 
       <b-row>
-        <b-col>
+        <b-col class="vert">
 
           <div id="vertical">
 
@@ -113,4 +113,41 @@ br{
   padding-left: 20px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  #vertical{
+    margin: 0 6%;
+    width: 30px;
+  }
+  .vert{
+    width: 40px;
+    padding-right: 0;
+    flex-grow: 0;
+
+  }
+  .protocol, .realisation, .analyse, .actions{
+    width: 300px;
+    height: 200px;
+
+  }
+  .light{
+    font-size: 10px;
+    padding-top: 10px;
+  }
+  h4{
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  .realisation{
+    height: 160px;
+  }
+  .analyse{
+    height: 250px;
+  }
+  .actions{
+    height: 150px;
+  }
+
+
+
+}
 </style>

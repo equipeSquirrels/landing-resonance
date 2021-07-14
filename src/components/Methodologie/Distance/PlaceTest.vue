@@ -2,7 +2,7 @@
   <div id="analyse">
     <div class="container">
       <div class="block">
-        <h1 class="text-center">Vous souhaitez mettre en place un test utilisateur ?</h1>
+        <h1 class="text-center htc">Vous souhaitez mettre en place un test utilisateur ?</h1>
         <p class="light text-center">Contactez-nous directement ou formulez votre demande de démo
         selon vos besoins.</p>
 
@@ -54,5 +54,13 @@ h1{
   border-radius: 12px;
   background-color: #e1366a;
   color: white;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .btnDemo{
+    margin-left: 18%;
+  }
+  .htc{
+    font-size: 30px;
+  }
 }
 </style>

@@ -2,8 +2,8 @@
   <div id="testUser">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <img alt="questce" src="../../../assets/testuser/questce.svg"/>
+        <div class="col-md-6 imgs_test">
+          <img alt="questce" src="../../../assets/testuser/questce.svg" class="questce"/>
         </div>
         <div class="col-md-6 texte">
           <h3>Qu'est ce qu'un test utilisateur ?</h3>
@@ -18,7 +18,7 @@
           impliquer d'utilisateurs.</span>
         </div>
       </div>
-      <div class="row">
+      <div class="row desktop">
         <div class="col-md-6 texte">
           <h3>Pourquoi réaliser des tests utilisateurs ?</h3>
           <p>Simplement parce que <span class="bold">vous n'êtes pas votre propre utilisateur !</span> </p>
@@ -34,8 +34,25 @@
           <img alt="pourquoi" src="../../../assets/testuser/pourquoi.svg" class="pourquoi"/>
         </div>
       </div>
+      <div class="row mobile">
+        <div class="col-md-6 imgs_test">
+          <img alt="pourquoi" src="../../../assets/testuser/pourquoi.svg" class="pourquoi"/>
+        </div>
+        <div class="col-md-6 texte">
+          <h3>Pourquoi réaliser des tests utilisateurs ?</h3>
+          <p>Simplement parce que <span class="bold">vous n'êtes pas votre propre utilisateur !</span> </p>
+
+          <span class="light">Il faut donc prendre en compte leurs attentes réelles pour comprendre comment construire une interface
+            qui réponde à leurs besoins. C'est alors un moyen :<br/>
+           de gagner du temps,<br/>
+           d'économiser des budgets <br/>
+           d'augmenter l'adhésion <br/>
+           d'optimiser.</span>
+        </div>
+
+      </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 imgs_test">
           <img alt="faire" src="../../../assets/testuser/faire.svg"/>
         </div>
         <div class="col-md-6 textes">
@@ -111,5 +128,23 @@ h3{
 
 #testUser{
   margin: 5% 0;
+}
+.mobile{
+  display: none;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+  img{
+    width: 100%;
+  }
+  .questce{
+    margin-top: 75px;
+  }
+
 }
 </style>
