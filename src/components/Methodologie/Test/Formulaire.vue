@@ -236,10 +236,10 @@ name: "Formulaire",
 
 }
 p{
-  font-family: Quicksand, sans-serif;
+  font-family: Poppins, sans-serif;
 }
 h1, h2, h3, h4, h5, h6{
-  font-family: "Poppins SemiBold", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .critere{
