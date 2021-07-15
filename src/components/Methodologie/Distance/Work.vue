@@ -96,7 +96,7 @@ li{
 }
 .devis{
   background: #e1366a;
-  padding: 5%;
+  padding: 5% 43%;
   margin-top:5%;
 
 }
@@ -211,6 +211,9 @@ span {
 @media screen and (min-width: 320px) and (max-width: 767px){
   .btnTesteur{
     margin-bottom: 2%;
+  }
+  .devis{
+    padding: 5%;
   }
   .col-md-6{
     padding: 2%;
